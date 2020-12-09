@@ -1,0 +1,14 @@
+composer create-project --prefer-dist cakephp/app:4.* inventario
+
+
+
+
+.\cake bake controller productos
+.\cake bake template productos
+
+.\cake bake controller productos_vendidos
+.\cake bake template productos_vendidos
+
+.\cake bake model productos_vendidos
+
+.\cake bake all productos_vendidos

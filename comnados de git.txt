@@ -1,0 +1,79 @@
+estados de git
+
+working directory = trabajando actualmente 
+
+staging area = prepara los archivos para el guardado
+
+repository = se guarda el proyecto 
+
+
+comandos de git
+
+cd = navegar
+
+ls = ver contenido de la carpeta
+
+git init = iniciar en un proyecto
+
+git status = ver estado de los archivos
+
+git add = agregar un archivo al staging area
+
+git add . = agregar todos los archivos al staging area
+
+git commit = enviar al repository
+
+git config --global user.email "you@example.com"  = configurar credenciales
+
+git config --global user.name "Your Name" = configurar credenciales
+
+git config --global user.email "angelogarbero@gmail.com" 
+
+git config --global user.name "Garbero Angelo" 
+
+i para empezar a escribir
+
+esc :wq = salir
+
+git log = ver todas las versiones creadas
+
+git checkout -- sandwich.php = borrar los cambios hechos 
+
+git diff sandwich.php = ver diferencias de un archivo
+
+(HEAD -> master) = en que commit estamos trabajando
+
+.gitignore = en este archivo se pone todo lo que no se quiere guardar
+
+git commit -m "commit v3.0" = enviar al repository y ponerles un mensaje a la ves 
+
+los siguientes comandos son para trabajar con una versión alternativa de un proyecto
+
+git branch = muestra en cual versión estamos trabajando 
+
+master = significa que es el original 
+
+git branch version_alternativa = crea otra versión del código 
+
+git checkout version_alternativa = mueve a la otra versión del código
+
+sí una carpeta está vacía no la considera
+
+si se quiere subir el proyecto a git hub
+
+git branch -M main
+git remote add origin https://github.com/AngeloGarbero/proyecto_hook.git
+git push -u origin main
+
+git clone https://github.com/AngeloGarbero/proyecto_hook.git = se descarga el código
+
+modificar el texto de un commit:
+
+1) ir al commit deseado 
+2) git commit --amend
+3) git push --force 
+
+git checkout <hash> = vuelve el proyecto a una versión alternativa
+
+
+
